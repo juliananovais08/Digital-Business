@@ -1,0 +1,22 @@
+2018-02-21 19:48:15 INFO  PropertySingleton:27 - Carregando o arquivo de propriedade do sistema
+2018-02-21 19:48:15 INFO  Teste:17 - Finalizando o sistema
+2018-02-21 19:48:56 TRACE PropertySingleton:23 - Criando o objeto properties
+2018-02-21 19:48:56 INFO  PropertySingleton:27 - Carregando o arquivo de propriedade do sistema
+2018-02-21 19:48:56 DEBUG PropertySingleton:35 - Retornando as configurações do sistema
+2018-02-21 19:48:56 INFO  Teste:17 - Finalizando o sistema
+2018-02-21 19:49:04 TRACE PropertySingleton:23 - Criando o objeto properties
+2018-02-21 19:49:04 INFO  PropertySingleton:27 - Carregando o arquivo de propriedade do sistema
+2018-02-21 19:49:04 DEBUG PropertySingleton:35 - Retornando as configurações do sistema
+2018-02-21 19:49:04 INFO  Teste:17 - Finalizando o sistema
+2018-02-21 19:49:11 TRACE PropertySingleton:23 - Criando o objeto properties
+2018-02-21 19:49:11 INFO  PropertySingleton:27 - Carregando o arquivo de propriedade do sistema
+2018-02-21 19:49:11 DEBUG PropertySingleton:35 - Retornando as configurações do sistema
+2018-02-21 19:49:11 INFO  Teste:17 - Finalizando o sistema
+2018-02-21 19:51:09 TRACE PropertySingleton:23 - Criando o objeto properties
+2018-02-21 19:51:09 INFO  PropertySingleton:27 - Carregando o arquivo de propriedade do sistema
+2018-02-21 19:51:09 DEBUG PropertySingleton:35 - Retornando as configurações do sistema
+2018-02-21 19:51:09 INFO  Teste:17 - Finalizando o sistema
+2018-02-21 19:51:24 TRACE PropertySingleton:23 - Criando o objeto properties
+2018-02-21 19:51:24 INFO  PropertySingleton:27 - Carregando o arquivo de propriedade do sistema
+2018-02-21 19:51:24 DEBUG PropertySingleton:35 - Retornando as configurações do sistema
+2018-02-21 19:51:24 INFO  Teste:17 - Finalizando o sistema

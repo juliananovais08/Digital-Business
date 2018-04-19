@@ -1,0 +1,7 @@
+2018-02-21 20:24:24 INFO  TerminalConsulta:19 - Inicializando o sistema
+2018-02-21 20:24:27 DEBUG EstoqueBO:16 - Pesquisando um produto
+2018-02-21 20:24:32 INFO  TerminalConsulta:53 - Finalizando o sistema
+2018-02-21 20:24:51 INFO  TerminalConsulta:19 - Inicializando o sistema
+2018-02-21 20:24:54 DEBUG EstoqueBO:16 - Pesquisando um produto
+2018-02-21 20:24:54 WARN  TerminalConsulta:44 - Produto não encontrado
+2018-02-21 20:24:55 INFO  TerminalConsulta:53 - Finalizando o sistema
