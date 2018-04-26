@@ -1,0 +1,38 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+
+	<title>Cadastro Paciente</title>
+
+</h:head>
+
+<h1>Cadastro de Paciente</h1>
+
+<h:body>
+	<h:form>
+		<div>
+			<h:outputLabel value="Nome" for="nome" />
+			<h:inputText value="nome" value="#{pacienteBean.paciente.nome}" />
+		</div>
+		<div>
+			<h:outputLabel value="Data Nascimento" for="data" />
+			<h:inputText id="data"
+				value="#{pacienteBean.paciente.dataNascimento.time}">
+				<f:convertDateTime pattern="dd/MM/yyyy" />
+			</h:inputText>
+		</div>
+
+		<h:selectBooleanCheckbox id="doador"
+			value="#pacienteBean.paciente.doador" />
+		<h:outputLabel value="Doador" for="doador" />
+
+	</h:form>
+</h:body>
+</html>
