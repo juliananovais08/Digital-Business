@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	
+<ui:composition template="/_template.xhtml">
+
+	<ui:define name="conteudo">
+		<h:form>
+	<h:messages />
+		<div>
+			<h:outputLabel value="Endereco" for="end" />
+			<h:inputText id="end" value= "#{imovelBean.imovel.endereco}"/>
+		</div>
+		<div>
+			<h:outputLabel value="Preco" for="preco" />
+			<h:inputText id="preco" value= "#{imovelBean.imovel.preco}"/>
+		</div>
+		<div>
+			<h:selectBooleanCheckbox id="res" value="#{imovelBean.imovel.residencial}"/>
+			<h:outputLabel value="Residencial" for="res"/>
+		</div>
+		<h:commandButton action="#{imovelBean.cadastrar()}" value="Cadastrar" />
+	</h:form>
+	</ui:define>
+	
+</ui:composition>	
+
+</html>

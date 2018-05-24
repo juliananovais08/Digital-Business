@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+
+<ui:composition template="/_template.xhtml">
+	<ui:define name="conteudo">
+		<h:dataTable value="#{imovelBean.lista}" var="i">
+			<h:column>
+				<f:facet name="header">Código</f:facet>#{i.codigo}
+		</h:column>
+			<h:column>
+				<f:facet name="header">Endereço</f:facet>#{i.endereco}
+		</h:column>
+			<h:column>
+				<f:facet name="header">Preço</f:facet>#{i.preco}
+		</h:column>
+			<h:column>
+				<f:facet name="header">Residencial</f:facet>#{i.residencial?"Sim":"Não"}
+		</h:column>
+		</h:dataTable>
+	</ui:define>
+</ui:composition>
+</html>
